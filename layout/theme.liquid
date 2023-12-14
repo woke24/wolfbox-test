@@ -138,19 +138,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.dataset.src=
   // woke add sticky js
   document.addEventListener("DOMContentLoaded", () => {
     var navEle = document.querySelector('.wolfbox_nav');
-    navEle.parentNode.parentNode.classList.add("wolfbox_nav_sticky")
-    const barHeight = document.querySelector('.shopify-section--announcement-bar').offsetHeight || 0
-    const headHeight = document.querySelector('.shopify-section--header').offsetHeight || 0
-    const stickyHeight = barHeight + headHeight
-    navEle.parentNode.parentNode.style.top =  '' + stickyHeight + 'px'
-    var btnList = document.querySelectorAll(".wolfbox_nav_btn");
-    for (let i= 0; i < btnList.length; i++) {
-      btnList[i].onclick=function() {
-        const sectionTop = document.querySelectorAll('.wolebox_secton_goto')[i].parentNode.parentNode.offsetTop - 50 - stickyHeight;
-        window.scrollTo({
-          top: sectionTop,
-          behavior: 'smooth' // 平滑滚动
-        });
+    if (navEle) {
+      navEle.parentNode.parentNode.classList.add("wolfbox_nav_sticky")
+      const barHeight = document.querySelector('.shopify-section--announcement-bar').offsetHeight || 0
+      const headHeight = document.querySelector('.shopify-section--header').offsetHeight || 0
+      const stickyHeight = barHeight + headHeight
+      navEle.parentNode.parentNode.style.top =  '' + stickyHeight + 'px'
+      var btnList = document.querySelectorAll(".wolfbox_nav_btn");
+      for (let i= 0; i < btnList.length; i++) {
+        btnList[i].onclick=function() {
+          const sectionTop = document.querySelectorAll('.wolebox_secton_goto')[i].parentNode.parentNode.offsetTop - 50 - stickyHeight;
+          window.scrollTo({
+            top: sectionTop,
+            behavior: 'smooth' // 平滑滚动
+          });
+        }
       }
     }
   })
