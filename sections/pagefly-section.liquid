@@ -1,0 +1,131 @@
+
+{% if request.design_mode %}
+<style>.pf-ph{font-size:14px!important;background:#fafafa;padding:20px;text-align:center;border:1px solid #f0f0f0;border-radius:4px;margin:15px}.pf-ph span{display:block;background:#e6f7ff;padding:8px 15px;border:1px solid #91d5ff}</style>
+{% endif %}
+{% if section.settings.section_id.size > 0 %}
+  {% assign snippet_name = section.settings.section_id %}
+  {% render 'pagefly-settings' %}
+  {% include snippet_name %}
+  {% else %}
+    
+    {% if request.design_mode %}
+      <div class="pf-ph">
+        <h3>PageFly Section</h3>
+        <span>No section selected. Please select your section from the list</span>
+      </div>
+    {% endif %}
+  
+{% endif %}
+
+{% schema %}
+{
+  "name": "PageFly Section",
+  "settings": [
+    {
+      "id": "section_id",
+      "type": "select",
+      "label": "Sections",
+      "options": [
+        {
+          "label": "Select section",
+          "value": ""
+        },
+        {
+          "label": "Installation Guide",
+          "value": "pf-be8df6af"
+        },
+        {
+          "label": "CAP",
+          "value": "pf-30662aa5"
+        },
+        {
+          "label": "Section-home page -12月",
+          "value": "pf-a49d5398"
+        },
+        {
+          "label": "Section-selection",
+          "value": "pf-c79b4495"
+        },
+        {
+          "label": "Section-home page -11月-W3-4",
+          "value": "pf-be993ff3"
+        },
+        {
+          "label": "车型",
+          "value": "pf-c54df7b5"
+        },
+        {
+          "label": "豆腐块-已上线版本",
+          "value": "pf-e9e67599"
+        },
+        {
+          "label": "Section-home page - copy",
+          "value": "pf-803c51c7"
+        },
+        {
+          "label": "豆腐块-新",
+          "value": "pf-eb011859"
+        },
+        {
+          "label": "Section-home page - 现在版本 - 新",
+          "value": "pf-bb55d54c"
+        },
+        {
+          "label": "3W-详情-通用",
+          "value": "pf-28ecfe9f"
+        },
+        {
+          "label": "Section-home page",
+          "value": "pf-902f641a"
+        },
+        {
+          "label": "Pagefly Home Page",
+          "value": "pf-dc80c73c"
+        },
+        {
+          "label": "Section-new customer-1",
+          "value": "pf-a9c40268"
+        },
+        {
+          "label": "Section-home product",
+          "value": "pf-6b85eeb9"
+        },
+        {
+          "label": "Section-banner2",
+          "value": "pf-ef9ad5e4"
+        },
+        {
+          "label": "Section-banner",
+          "value": "pf-62c5c654"
+        },
+        {
+          "label": "Section-win your prize",
+          "value": "pf-15298e23"
+        },
+        {
+          "label": "instagram",
+          "value": "pf-0d97f86c"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Find and edit your section on the [section listing](https://apps.pagefly.io/sections)"
+    },
+    {
+      "type": "paragraph",
+      "content": "To add block to a section, please use the App Block element on PageFly section editor."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@app"
+    }
+  ],
+  "presets": [
+    {
+      "name": "PageFly Section"
+    }
+  ]
+}
+{% endschema %}

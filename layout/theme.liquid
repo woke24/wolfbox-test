@@ -1,0 +1,136 @@
+{%- comment -%}
+------------------------------------------------------------------------------------------------------------------------
+NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing this theme as much as we did for
+  developing it. We have put a lot of work to make this theme as developer friendly as possible by offering you
+  hooks to integrate into critical parts of the theme. You will find the complete technical documentation (including
+  all events, dependencies...) in the "documentation.txt" file, located in the Assets folder.
+------------------------------------------------------------------------------------------------------------------------
+{%- endcomment -%}
+
+<!doctype html>
+
+<html class="no-js" lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
+  <head>{% render 'pagefly-head' %}
+    <meta name="facebook-domain-verification" content="xb91quc5asuyey8auywhp92s82w4f1" />
+      <!-- Google tag (gtag.js) -->
+<script async data-src="https://www.googletagmanager.com/gtag/js?id=G-F6X7ML5FZ4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-F6X7ML5FZ4');
+</script>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.dataset.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PRSZVCT');</script>
+<!-- End Google Tag Manager -->
+
+<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"27033459", enableAutoSpaTracking: true};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
+<script>window.uetq = window.uetq || [];window.uetq.push('event', 'begin_checkout', {"revenue_value":1,"currency":"USD"});</script>
+<script>window.uetq = window.uetq || [];window.uetq.push('event', '', {"revenue_value":1,"currency":"USD"});</script>
+
+
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="theme-color" content="{{ settings.header_background }}">
+
+    <title>{% if page_title == blank %}{{ shop.name }}{% else %}{{ page_title }}{% if current_page != 1 %} &ndash; {{ 'general.page' | t: page: current_page }}{% endif %}{% endif %}</title>
+
+    {%- if page_description -%}
+      <meta name="description" content="{{ page_description | escape }}">
+    {%- endif -%}
+
+    <link rel="canonical" href="{{ canonical_url }}">
+
+    {%- if settings.favicon -%}
+      <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 96 }}">
+      <link rel="apple-touch-icon" href="{{ settings.favicon | image_url: width: 180 }}">
+    {%- endif -%}
+
+    {%- comment -%}Few prefetch to increase performance on commonly used third-parties{%- endcomment -%}
+    <link rel="preconnect" href="https://cdn.shopify.com">
+    <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
+    <link rel="dns-prefetch" href="https://productreviews.shopifycdn.com">
+
+    {%- unless settings.heading_font.system? -%}
+      <link rel="preload" href="{{ settings.heading_font | font_url }}" as="font" type="font/woff2" crossorigin>
+    {%- endunless -%}
+
+    {%- unless settings.text_font.system? -%}
+      <link rel="preload" href="{{ settings.text_font | font_url }}" as="font" type="font/woff2" crossorigin>
+    {%- endunless -%}
+
+    {%- render 'social-meta-tags' -%}
+    {%- render 'microdata-schema' -%}
+    {%- render 'css-variables' -%}
+    {%- render 'js-variables' -%}
+
+    <script type="module" src="{{ 'vendor.min.js' | asset_url }}"></script>
+    <script type="module" src="{{ 'theme.js' | asset_url }}"></script>
+    <script type="module" src="{{ 'sections.js' | asset_url }}"></script>
+
+  {%comment%}{{ content_for_header }}
+  {%endcomment%}    
+  {%include "meta-head"%}
+
+
+    {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
+  {% include 'bucks-cc' %}
+            
+{% render 'gsf-conversion-pixels' %}
+{% render 'loadify_loader' %}{% render 'loadifyOpt' %}
+<script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=be0e85aa"></script>
+  {% if content_for_header contains 'bss-b2b-cp' %}{% include 'bss-b2b-header' %}{% endif %}
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.dataset.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "ciry9i0qxx");
+</script>
+ <script async data-src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=RLBzTy"></script>
+  <script>!function(){if(!window.klaviyo){window._klOnsite=window._klOnsite||[];try{window.klaviyo=new Proxy({},{get:function(n,i){return"push"===i?function(){var n;(n=window._klOnsite).push.apply(n,arguments)}:function(){for(var n=arguments.length,o=new Array(n),w=0;w<n;w++)o[w]=arguments[w];var t="function"==typeof o[o.length-1]?o.pop():void 0,e=new Promise((function(n){window._klOnsite.push([i].concat(o,[function(i){t&&t(i),n(i)}]))}));return e}}})}catch(n){window.klaviyo=window.klaviyo||[],window.klaviyo.push=function(){var n;(n=window._klOnsite).push.apply(n,arguments)}}}}();</script>
+
+    
+  </head>
+
+  <body class="{% if settings.show_page_transition %}page-transition{% endif %} {% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}">
+    {%- render 'shadow-dom-templates' -%}
+
+    <a href="#main" class="skip-to-content sr-only">{{ 'general.accessibility.skip_to_content' | t }}</a>
+
+    {%- if request.page_type != 'password' -%}
+      {%- sections 'header-group' -%}
+      {%- sections 'overlay-group' -%}
+
+      {%- if settings.cart_type == 'popover' -%}
+        <cart-notification-drawer open-from="bottom" class="quick-buy-drawer drawer"></cart-notification-drawer>
+      {%- endif -%}
+    {%- endif -%}
+
+    {%- if request.page_type == 'customers/account' or request.page_type == 'customers/order' or request.page_type == 'customers/addresses' -%}
+      {%- section 'account-banner' -%}
+    {%- endif -%}
+
+    <main role="main" id="main" class="anchor">
+      {{ content_for_layout }}
+
+      {%- comment -%}
+      IMPLEMENTATION NOTE: due to the very complex logic of margin/padding collapsing in Impact, the footer group is
+      added into the main element to ensure that dynamic sections added into the footer group are properly laid out.
+      {%- endcomment -%}
+      {%- if request.page_type != 'password' -%}
+        {%- sections 'footer-group' -%}
+      {%- endif -%}
+    </main>
+
+{% if content_for_header contains 'bss-b2b-cp' %}{% include 'bss-b2b-jquery-341-js' %}{% include 'bss-b2b-js' %}{% endif %}
+ {{'body-content.js' | asset_url | script_tag }}
+  </body>
+</html>
