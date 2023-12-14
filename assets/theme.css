@@ -1972,6 +1972,17 @@ scroll-carousel {
   display: flow-root;
 }
 
+/* woke add sticky start*/
+[role="main"] .wolfbox_nav_sticky {
+  position: sticky;
+  z-index: 99;
+}
+[role="main"] .wolfbox_nav_sticky .section-full{
+  padding-left: 0;
+  padding-right: 0;
+}
+/* woke add sticky end */
+
 [role="main"] .shopify-section:empty {
   display: none;
 }
