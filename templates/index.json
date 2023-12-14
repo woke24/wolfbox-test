@@ -167,23 +167,6 @@
         "heading_gradient": ""
       }
     },
-    "32db37db-89ba-4897-8a60-089144c55cc0": {
-      "type": "custom-html",
-      "custom_css": [
-        ".wolfbox_nav {display: flex; height: 50px; background: #000;}",
-        ".wolfbox_nav .wolfbox_nav_list {margin: auto; display: flex;}",
-        ".wolfbox_nav_list .wolfbox_nav_btn {border-radius: 15px; padding: 6px 12px; margin: 0 5px; color: #fff; cursor: pointer; background-color: #e6a23c; border-color: #e6a23c;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "html": "<div class=\"wolfbox_nav\">\n    <div class=\"wolfbox_nav_list\">\n      <span class=\"wolfbox_nav_btn\"> go choice<\/span>\n      <span class=\"wolfbox_nav_btn\"> go discover<\/span>\n      <span class=\"wolfbox_nav_btn\"> go video<\/span>\n    <\/div>\n  <\/div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "5dcd2cdf-fc16-4f1a-a9e1-62599df6531b": {
       "type": "pagefly-section",
       "settings": {
@@ -886,25 +869,12 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "e8d313db-9eec-43f9-a0f8-6d079e863118": {
-      "type": "custom-html",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "html": "<div class=\" wolebox_secton_goto\"><\/div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
     "slideshow",
     "scrolling-text",
     "ceacaff0-abe9-463f-9000-94e943d63775",
-    "32db37db-89ba-4897-8a60-089144c55cc0",
     "5dcd2cdf-fc16-4f1a-a9e1-62599df6531b",
     "b228e3c7-afc6-4d9a-970b-2c39f882b3af",
     "d3fc608e-59ac-4536-860a-2b2818ea4c47",
@@ -922,7 +892,6 @@
     "51a63f2a-55cc-42e3-9137-549957ec6295",
     "1699944760b15dc5d4",
     "efaf9f76-031d-40a1-96a8-c573f8c6378c",
-    "241ad06f-09ed-435c-b226-823016dead88",
-    "e8d313db-9eec-43f9-a0f8-6d079e863118"
+    "241ad06f-09ed-435c-b226-823016dead88"
   ]
 }
