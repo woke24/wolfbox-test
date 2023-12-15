@@ -87,12 +87,6 @@
           "settings": {
           }
         },
-        "a1c1ad33-0fbe-4290-abb1-b77cc9cb110b": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "  <div class=\" wolebox_secton_goto\"><\/div>"
-          }
-        },
         "12d334d3-0882-418e-8f45-2ca8597b3740": {
           "type": "shopify:\/\/apps\/selleasy\/blocks\/lb-upsell-addon-block\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
           "settings": {
@@ -135,7 +129,6 @@
         "variant_picker",
         "92651602-f217-4f32-9545-1f347fa9bd07",
         "quantity_selector",
-        "a1c1ad33-0fbe-4290-abb1-b77cc9cb110b",
         "12d334d3-0882-418e-8f45-2ca8597b3740",
         "buy_buttons",
         "57c3586e-8ca8-4cae-98c6-6e5c7a056aec"
@@ -169,7 +162,19 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
-        "html": "<div class=\"wolfbox_nav\">\n    <div class=\"wolfbox_nav_list\">\n      <span class=\"wolfbox_nav_btn\">Pack List<\/span>\n      <span class=\"wolfbox_nav_btn\"> Installation<\/span>\n      <span class=\"wolfbox_nav_btn\"> Add Now<\/span>\n    <\/div>\n  <\/div>",
+        "html": "<div class=\"wolfbox_nav\">\n    <div class=\"wolfbox_nav_list\">\n      <span class=\"wolfbox_nav_btn\">Overview<\/span>\n      <span class=\"wolfbox_nav_btn\"> In the Box<\/span>\n      <span class=\"wolfbox_nav_btn\"> Installation<\/span>\n    <\/div>\n  <\/div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "e11b9c9b-9aca-4799-a24c-79d68cc27f83": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "html": "  <div class=\" wolebox_secton_goto\"><\/div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -836,50 +841,6 @@
         "overlay_opacity": 0
       }
     },
-    "6fd33895-1c1f-4dec-9917-5ded56fa4838": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "template--20384040517921__6fd33895-1c1f-4dec-9917-5ded56fa4838-subheading-1": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "template--20384040517921__6fd33895-1c1f-4dec-9917-5ded56fa4838-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Gets You Wherever You Are",
-            "heading_tag": "h3"
-          }
-        },
-        "template--20384040517921__6fd33895-1c1f-4dec-9917-5ded56fa4838-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Keep track of your route and never get loss<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--20384040517921__6fd33895-1c1f-4dec-9917-5ded56fa4838-subheading-1",
-        "template--20384040517921__6fd33895-1c1f-4dec-9917-5ded56fa4838-heading-1",
-        "template--20384040517921__6fd33895-1c1f-4dec-9917-5ded56fa4838-richtext-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/7_3.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/7_2.jpg",
-        "mobile_text_position": "place-self-start-center text-center",
-        "desktop_text_position": "sm:place-self-start-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "18126475-4451-439a-a906-2355f3496569": {
       "type": "custom-html",
       "settings": {
@@ -1121,6 +1082,7 @@
   "order": [
     "main",
     "9b980312-18e1-4f5f-a377-ae7d297ad9e6",
+    "e11b9c9b-9aca-4799-a24c-79d68cc27f83",
     "f3bbb9d5-66fe-429a-b09f-fcc6d960ee02",
     "related-products",
     "0f1745e3-a4c3-47f4-ac16-8f58717912af",
@@ -1138,7 +1100,6 @@
     "69d4b0ae-2cf4-4d94-bcc6-b3ee4600e190",
     "b0587f05-c8bc-4177-a4eb-d17063477dff",
     "c5bbd255-212a-472d-aaf3-3c963106aee8",
-    "6fd33895-1c1f-4dec-9917-5ded56fa4838",
     "18126475-4451-439a-a906-2355f3496569",
     "c618f8ea-9388-42a1-a572-8c2e58439c40",
     "fdf4c903-1524-44bd-b4a1-def5555c68d6",
