@@ -162,7 +162,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
-        "html": "<div class=\"wolfbox_nav\">\n    <div class=\"wolfbox_nav_list\">\n      <span class=\"wolfbox_nav_btn\">Pack List<\/span>\n      <span class=\"wolfbox_nav_btn\"> go discover<\/span>\n      <span class=\"wolfbox_nav_btn\"> go video<\/span>\n    <\/div>\n  <\/div>",
+        "html": "<div class=\"wolfbox_nav\">\n    <div class=\"wolfbox_nav_list\">\n      <span class=\"wolfbox_nav_btn\">Pack List<\/span>\n      <span class=\"wolfbox_nav_btn\"> Installation<\/span>\n      <span class=\"wolfbox_nav_btn\"> go video<\/span>\n    <\/div>\n  <\/div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
