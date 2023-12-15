@@ -3,11 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "12d334d3-0882-418e-8f45-2ca8597b3740": {
-          "type": "shopify:\/\/apps\/selleasy\/blocks\/lb-upsell-addon-block\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
-          "settings": {
-          }
-        },
         "vendor": {
           "type": "vendor",
           "settings": {
@@ -98,6 +93,11 @@
             "liquid": "  <div class=\" wolebox_secton_goto\"><\/div>"
           }
         },
+        "12d334d3-0882-418e-8f45-2ca8597b3740": {
+          "type": "shopify:\/\/apps\/selleasy\/blocks\/lb-upsell-addon-block\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -122,7 +122,6 @@
         }
       },
       "block_order": [
-        "12d334d3-0882-418e-8f45-2ca8597b3740",
         "vendor",
         "title",
         "badges",
@@ -137,6 +136,7 @@
         "92651602-f217-4f32-9545-1f347fa9bd07",
         "quantity_selector",
         "a1c1ad33-0fbe-4290-abb1-b77cc9cb110b",
+        "12d334d3-0882-418e-8f45-2ca8597b3740",
         "buy_buttons",
         "57c3586e-8ca8-4cae-98c6-6e5c7a056aec"
       ],
