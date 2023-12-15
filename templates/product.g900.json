@@ -154,15 +154,15 @@
     "9b980312-18e1-4f5f-a377-ae7d297ad9e6": {
       "type": "custom-html",
       "custom_css": [
-        ".wolfbox_nav {display: flex; height: 50px; background: #000; }",
-        " .wolfbox_nav .wolfbox_nav_list {margin: auto; display: flex; }",
-        " .wolfbox_nav_list .wolfbox_nav_btn {border-radius: 15px; padding: 6px 12px; margin: 0 5px; color: #fff; cursor: pointer; background-color: #e6a23c; border-color: #e6a23c; }"
+        ".wolfbox_nav {display: flex; height: 50px; background: #000;}",
+        ".wolfbox_nav .wolfbox_nav_list {margin: auto; display: flex;}",
+        ".wolfbox_nav_list .wolfbox_nav_btn {border-radius: 15px; padding: 6px 12px; margin: 0 5px; color: #fff; cursor: pointer; background-color: #e6a23c; border-color: #e6a23c;}"
       ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
-        "html": "<div class=\"wolfbox_nav\">\n    <div class=\"wolfbox_nav_list\">\n      <span class=\"wolfbox_nav_btn\"> go choice<\/span>\n      <span class=\"wolfbox_nav_btn\"> go discover<\/span>\n      <span class=\"wolfbox_nav_btn\"> go video<\/span>\n    <\/div>\n  <\/div>",
+        "html": "<div class=\"wolfbox_nav\">\n    <div class=\"wolfbox_nav_list\">\n      <span class=\"wolfbox_nav_btn\">Pack List<\/span>\n      <span class=\"wolfbox_nav_btn\"> go discover<\/span>\n      <span class=\"wolfbox_nav_btn\"> go video<\/span>\n    <\/div>\n  <\/div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
