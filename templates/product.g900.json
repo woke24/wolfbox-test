@@ -1060,82 +1060,16 @@
         "heading_gradient": ""
       }
     },
-    "4f932e58-89d5-4986-ab3a-e0f9854b39ba": {
-      "type": "image-link-blocks",
-      "blocks": {
-        "template--20384040517921__4f932e58-89d5-4986-ab3a-e0f9854b39ba-item-1": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--20384040517921__4f932e58-89d5-4986-ab3a-e0f9854b39ba-item-2": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--20384040517921__4f932e58-89d5-4986-ab3a-e0f9854b39ba-item-3": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--20384040517921__4f932e58-89d5-4986-ab3a-e0f9854b39ba-item-4": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--20384040517921__4f932e58-89d5-4986-ab3a-e0f9854b39ba-item-1",
-        "template--20384040517921__4f932e58-89d5-4986-ab3a-e0f9854b39ba-item-2",
-        "template--20384040517921__4f932e58-89d5-4986-ab3a-e0f9854b39ba-item-3",
-        "template--20384040517921__4f932e58-89d5-4986-ab3a-e0f9854b39ba-item-4"
-      ],
-      "disabled": true,
+    "fdf4c903-1524-44bd-b4a1-def5555c68d6": {
+      "type": "custom-html",
       "settings": {
-        "full_width": false,
-        "block_size": "medium",
-        "subheading": "",
-        "title": "Installation Guide",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "html": "  <div class=\" wolebox_secton_goto\"><\/div>",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
+        "text_color": ""
       }
     },
     "1fc3ba06-37ab-48ef-a62e-fc53322157d3": {
@@ -1200,7 +1134,7 @@
     "6fd33895-1c1f-4dec-9917-5ded56fa4838",
     "18126475-4451-439a-a906-2355f3496569",
     "c618f8ea-9388-42a1-a572-8c2e58439c40",
-    "4f932e58-89d5-4986-ab3a-e0f9854b39ba",
+    "fdf4c903-1524-44bd-b4a1-def5555c68d6",
     "1fc3ba06-37ab-48ef-a62e-fc53322157d3",
     "1693466452cf47ddfe"
   ]
