@@ -151,6 +151,23 @@
         "input_text_color": ""
       }
     },
+    "9b980312-18e1-4f5f-a377-ae7d297ad9e6": {
+      "type": "custom-html",
+      "custom_css": [
+        ".wolfbox_nav {display: flex; height: 50px; background: #000; }",
+        " .wolfbox_nav .wolfbox_nav_list {margin: auto; display: flex; }",
+        " .wolfbox_nav_list .wolfbox_nav_btn {border-radius: 15px; padding: 6px 12px; margin: 0 5px; color: #fff; cursor: pointer; background-color: #e6a23c; border-color: #e6a23c; }"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "html": "<div class=\"wolfbox_nav\">\n    <div class=\"wolfbox_nav_list\">\n      <span class=\"wolfbox_nav_btn\"> go choice<\/span>\n      <span class=\"wolfbox_nav_btn\"> go discover<\/span>\n      <span class=\"wolfbox_nav_btn\"> go video<\/span>\n    <\/div>\n  <\/div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "f3bbb9d5-66fe-429a-b09f-fcc6d960ee02": {
       "type": "rich-text",
       "blocks": {
@@ -597,50 +614,6 @@
         "text_color": "#ffffff"
       }
     },
-    "537355bb-e8ec-4e90-a592-1278be708af5": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "template--20384040517921__537355bb-e8ec-4e90-a592-1278be708af5-subheading-1": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "template--20384040517921__537355bb-e8ec-4e90-a592-1278be708af5-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "One Device Fits All ",
-            "heading_tag": "h3"
-          }
-        },
-        "template--20384040517921__537355bb-e8ec-4e90-a592-1278be708af5-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>WOLFBOX G900 mirror dash camera is built with versatility and compatibility in mind, and is ready for almost any vehicle!<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--20384040517921__537355bb-e8ec-4e90-a592-1278be708af5-subheading-1",
-        "template--20384040517921__537355bb-e8ec-4e90-a592-1278be708af5-heading-1",
-        "template--20384040517921__537355bb-e8ec-4e90-a592-1278be708af5-richtext-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/13_7514fc86-3bc7-45e1-808b-a3b9e3383879.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/13_1_4ff04b89-1d24-4c9a-a5a3-70cba8497053.jpg",
-        "mobile_text_position": "place-self-start-center text-center",
-        "desktop_text_position": "sm:place-self-start-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "b5b2ae85-77e8-4f77-9d04-630037c18bcb": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -885,6 +858,7 @@
         "template--20384040517921__6fd33895-1c1f-4dec-9917-5ded56fa4838-heading-1",
         "template--20384040517921__6fd33895-1c1f-4dec-9917-5ded56fa4838-richtext-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
@@ -897,6 +871,18 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
+      }
+    },
+    "18126475-4451-439a-a906-2355f3496569": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "html": "  <div class=\" wolebox_secton_goto\"><\/div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "c618f8ea-9388-42a1-a572-8c2e58439c40": {
@@ -1136,6 +1122,7 @@
         "template--20384040517921__4f932e58-89d5-4986-ab3a-e0f9854b39ba-item-3",
         "template--20384040517921__4f932e58-89d5-4986-ab3a-e0f9854b39ba-item-4"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "block_size": "medium",
@@ -1155,58 +1142,6 @@
       "type": "pagefly-section",
       "settings": {
         "section_id": "pf-be8df6af"
-      }
-    },
-    "82cfee5c-dd3c-4672-853b-56eecbec300c": {
-      "type": "faq",
-      "blocks": {
-        "template--20384040517921__82cfee5c-dd3c-4672-853b-56eecbec300c-item-1": {
-          "type": "item",
-          "settings": {
-            "title": "Will dash camera lower my car insurance?",
-            "content": "<p>Having a dash camera in your car may provide evidence in the event of an accident or other incident on the road, making it easier for insurance companies to determine fault and process claims. This can potentially reduce the cost of claims and therefore, the cost of insurance premiums.<\/p>"
-          }
-        },
-        "template--20384040517921__82cfee5c-dd3c-4672-853b-56eecbec300c-item-2": {
-          "type": "item",
-          "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>·Delivery Time=1-2 business days processing time+3-5 business days  shipping time<\/p><p>·We do our best to process & ship all orders as soon as possible. Most orders are processed within 24-48 hours.<br\/>·We process orders between Monday and Friday and do not ship on weekends. <\/p><p><\/p>"
-          }
-        },
-        "template--20384040517921__82cfee5c-dd3c-4672-853b-56eecbec300c-item-3": {
-          "type": "item",
-          "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--20384040517921__82cfee5c-dd3c-4672-853b-56eecbec300c-item-1",
-        "template--20384040517921__82cfee5c-dd3c-4672-853b-56eecbec300c-item-2",
-        "template--20384040517921__82cfee5c-dd3c-4672-853b-56eecbec300c-item-3"
-      ],
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "Random Answers",
-        "content": "",
-        "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Sunday.",
-        "answer_time": "Average answer time: 24h",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
       }
     },
     "1693466452cf47ddfe": {
@@ -1244,6 +1179,7 @@
   },
   "order": [
     "main",
+    "9b980312-18e1-4f5f-a377-ae7d297ad9e6",
     "f3bbb9d5-66fe-429a-b09f-fcc6d960ee02",
     "related-products",
     "0f1745e3-a4c3-47f4-ac16-8f58717912af",
@@ -1256,17 +1192,16 @@
     "73bc44da-de7f-4603-8457-725675bc5a2e",
     "8e03a1f6-f5dc-4d14-995b-2cd0cea65ec2",
     "9e2dc5a7-3238-4ab0-8b05-6ee32e36a109",
-    "537355bb-e8ec-4e90-a592-1278be708af5",
     "b5b2ae85-77e8-4f77-9d04-630037c18bcb",
     "9ef36055-8d15-495b-9947-08aec850b728",
     "69d4b0ae-2cf4-4d94-bcc6-b3ee4600e190",
     "b0587f05-c8bc-4177-a4eb-d17063477dff",
     "c5bbd255-212a-472d-aaf3-3c963106aee8",
     "6fd33895-1c1f-4dec-9917-5ded56fa4838",
+    "18126475-4451-439a-a906-2355f3496569",
     "c618f8ea-9388-42a1-a572-8c2e58439c40",
     "4f932e58-89d5-4986-ab3a-e0f9854b39ba",
     "1fc3ba06-37ab-48ef-a62e-fc53322157d3",
-    "82cfee5c-dd3c-4672-853b-56eecbec300c",
     "1693466452cf47ddfe"
   ]
 }
