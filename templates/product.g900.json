@@ -92,6 +92,12 @@
           "settings": {
           }
         },
+        "a1c1ad33-0fbe-4290-abb1-b77cc9cb110b": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "  <div class=\" wolebox_secton_goto\"><\/div>"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -130,6 +136,7 @@
         "92651602-f217-4f32-9545-1f347fa9bd07",
         "quantity_selector",
         "12d334d3-0882-418e-8f45-2ca8597b3740",
+        "a1c1ad33-0fbe-4290-abb1-b77cc9cb110b",
         "buy_buttons",
         "57c3586e-8ca8-4cae-98c6-6e5c7a056aec"
       ],
