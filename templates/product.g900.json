@@ -113,6 +113,12 @@
             "background": "#ffffff",
             "text_color": ""
           }
+        },
+        "e826019d-7d67-46a1-9168-768777e1845c": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div id=\"wolfbox_add_card\"><?div>"
+          }
         }
       },
       "block_order": [
@@ -131,7 +137,8 @@
         "quantity_selector",
         "12d334d3-0882-418e-8f45-2ca8597b3740",
         "buy_buttons",
-        "57c3586e-8ca8-4cae-98c6-6e5c7a056aec"
+        "57c3586e-8ca8-4cae-98c6-6e5c7a056aec",
+        "e826019d-7d67-46a1-9168-768777e1845c"
       ],
       "settings": {
         "full_width": true,
