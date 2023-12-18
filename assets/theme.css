@@ -1982,6 +1982,24 @@ scroll-carousel {
   padding-right: 0;
 }
 /* woke add sticky end */
+/* go top */
+#wolfbox_goTop {
+  z-index: 999;
+  font-size:24px;
+  display: none;
+  background: #fff;
+  text-align: center;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  transform: rotateZ(-90deg);
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 6px 14px 0 rgba(25,28,33,.1);
+}
 
 [role="main"] .shopify-section:empty {
   display: none;

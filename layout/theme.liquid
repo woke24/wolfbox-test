@@ -135,6 +135,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.dataset.src=
   </body>
 </html>
 <script>
+  // to top
+  document.body.insertAdjacentHTML('beforeend','<div id="wolfbox_goTop"><span>></span></div>')
+  window.addEventListener("scroll", function () {
+    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    if(scrollTop > 600) {
+      document.getElementById('wolfbox_goTop').style.display = 'block'
+    } else {
+      document.getElementById('wolfbox_goTop').style.display = 'none'
+    }
+  })
+  document.getElementById('wolfbox_goTop').onclick=function() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
   // woke add sticky js
   document.addEventListener("DOMContentLoaded", () => {
     var navEle = document.querySelector('.wolfbox_nav');
